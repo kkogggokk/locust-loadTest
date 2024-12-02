@@ -1,0 +1,5 @@
+Method,Name,Error,Occurrences
+POST,/v1/issue,CatchResponseError('[Errno 101] Network is unreachable'),69
+POST,/v1/issue,CatchResponseError('[Errno 111] Connection refused'),23167
+POST,/v1/issue,"CatchResponseError('URL http://host.docker.internal:8080/v1/issue: 0, original=timed out')",156561
+POST,/v1/issue,LocustBadStatusCode(code=500),281
